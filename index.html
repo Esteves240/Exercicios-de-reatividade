@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Reatividade I Guess</title>
+</head>
+<body>
+  <main class="galeria">
+    <article class="imagem" data-titulo="Introspecção">
+      <img src="https://speech.protocommunications.com/wp-content/uploads/2018/03/frustrated-meme.png" alt="Introspecção">
+    </article>
+
+    <article class="imagem" data-titulo="Raiva">
+      <img src="https://www.shutterstock.com/image-vector/crazy-girl-angry-funny-meme-260nw-2351259357.jpg" alt="Raiva">
+    </article>
+
+    <article class="imagem" data-titulo="Aceitação">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkuYiJbeYUSJTuz6pvOKS20xLNIg24vCq0Jw&s" alt="Aceitação">
+    </article>
+  </main>
+
+  <div class="modal hidden">
+    <article class="modal-content">
+      <button class="fechar" aria-label="Fechar modal">×</button>
+      <h2 id="modalTitulo"></h2>
+      <img id="modalImagem" alt="" src=""> <!-- src vazia, para ser trocado pela imagem clicada -->
+    </article>
+  </div>
+</body>
+</html>
